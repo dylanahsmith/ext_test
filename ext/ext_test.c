@@ -1,7 +1,7 @@
 #include "ruby.h"
 
 VALUE ext_test() {
-    return Qtrue;
+    return INT2FIX(1);
 }
 
 void Init_ext_test() {
